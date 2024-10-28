@@ -1,3 +1,11 @@
-from django.shortcuts import render
+from lib2to3.fixes.fix_input import context
 
-# Create your views here.
+from django.shortcuts import render
+from blog.models import Post
+
+def post_list(request):
+    posts = Post.objects.all()
+    context = {
+        "posts": posts
+    }
+    return render(request, "post_list.html", context)
