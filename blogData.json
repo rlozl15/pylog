@@ -1,0 +1,50 @@
+[
+    {
+        "model": "blog.post",
+        "pk": 1,
+        "fields": {
+            "title": "첫 번째 블로그 포스트",
+            "content": "여기는 첫 번째 블로그 포스트의 내용입니다."
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 2,
+        "fields": {
+            "title": "두 번째 블로그 포스트",
+            "content": "여기는 두 번째 블로그 포스트의 내용입니다."
+        }
+    },
+    {
+        "model": "blog.post",
+        "pk": 3,
+        "fields": {
+            "title": "세 번째 블로그 포스트",
+            "content": "여기는 세 번째 블로그 포스트의 내용입니다."
+        }
+    },
+    {
+        "model": "blog.comment",
+        "pk": 1,
+        "fields": {
+            "post": 1,
+            "content": "첫 번째 포스트에 대한 첫 번째 댓글입니다."
+        }
+    },
+    {
+        "model": "blog.comment",
+        "pk": 2,
+        "fields": {
+            "post": 1,
+            "content": "첫 번째 포스트에 대한 두 번째 댓글입니다."
+        }
+    },
+    {
+        "model": "blog.comment",
+        "pk": 3,
+        "fields": {
+            "post": 2,
+            "content": "두 번째 포스트에 대한 첫 번째 댓글입니다."
+        }
+    }
+]
