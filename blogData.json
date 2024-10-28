@@ -16,6 +16,14 @@
         }
     },
     {
+        "model": "blog.post",
+        "pk": 3,
+        "fields": {
+            "title": "세 번째 블로그 포스트",
+            "content": "여기는 세 번째 블로그 포스트의 내용입니다."
+        }
+    },
+    {
         "model": "blog.comment",
         "pk": 1,
         "fields": {
