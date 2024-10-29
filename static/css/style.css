@@ -164,7 +164,7 @@ ul.posts {
       top: 17px;
       right: 0;
       width: 120px;
-      height: 120px;
+      height: 100px;
       object-fit: cover; }
     ul.posts > li.post img[alt]:after {
       display: block;
