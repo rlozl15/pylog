@@ -34,7 +34,7 @@ Docker와 Docker Compose로 환경을 설정해 컨테이너에서 일관되게 
     ```bash
     docker-compose up -d --build
     ```
-4. **Django 앱 및 마이그레이션**
+4. **Django 앱 마이그레이션**
     ```bash
     docker-compose exec app python manage.py migrate
     ```
