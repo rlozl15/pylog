@@ -53,3 +53,6 @@ Docker와 Docker Compose로 환경을 설정해 컨테이너에서 일관되게 
 ![posts](src/posts.png) 
 ![post detail](src/post_detail.png)
 ![post create](src/post_create.png)
+
+## 이미지 출처
+- 이미지는 [Pixabay](https://pixabay.com/)에서 다운받았습니다.
