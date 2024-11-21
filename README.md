@@ -44,4 +44,8 @@ Docker와 Docker Compose로 환경을 설정해 컨테이너에서 일관되게 
     ```
 6. **Django 서버 확인**
    - http://localhost:8000에서 Django 애플리케이션에 접근할 수 있습니다.
-
+7. **관리자 계정 생성**
+    - 필요시 admin 페이지 확인을 위해 superuser를 생성해야 합니다.
+```
+docker-compose exec django-service python manage.py createsuperuser
+```  
