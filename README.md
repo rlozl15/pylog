@@ -36,11 +36,11 @@ Docker와 Docker Compose로 환경을 설정해 컨테이너에서 일관되게 
     ```
 4. **Django 앱 마이그레이션**
     ```bash
-    docker-compose exec app python manage.py migrate
+    docker-compose exec django-app python manage.py migrate
     ```
 5. **블로그 데이터 임의 추가**
     ```bash
-    docker-compose exec app python manage.py loaddata blogData.json
+    docker-compose exec django-app python manage.py loaddata blogData.json
     ```
 6. **Django 서버 확인**
    - http://localhost:8000에서 Django 애플리케이션에 접근할 수 있습니다.
@@ -49,3 +49,7 @@ Docker와 Docker Compose로 환경을 설정해 컨테이너에서 일관되게 
     ```
     docker-compose exec django-service python manage.py createsuperuser
     ```  
+  
+![posts](src/posts.png) 
+![post detail](src/post_detail.png)
+![post create](src/post_create.png)
